@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84D55D9325F2094000196586 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D55D9225F2094000196586 /* AppDelegate.swift */; };
+		84D55D9525F2094000196586 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D55D9425F2094000196586 /* ViewController.swift */; };
+		84D55D9725F2094500196586 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D55D9625F2094500196586 /* Assets.xcassets */; };
+		84D55D9A25F2094500196586 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D55D9825F2094500196586 /* Main.storyboard */; };
+		84D55DA925F2099D00196586 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D55DA825F2099D00196586 /* Cocoa.framework */; };
+		84D55DAC25F2099D00196586 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D55DAB25F2099D00196586 /* SafariExtensionHandler.swift */; };
+		84D55DAE25F2099D00196586 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D55DAD25F2099D00196586 /* SafariExtensionViewController.swift */; };
+		84D55DB125F2099D00196586 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D55DAF25F2099D00196586 /* SafariExtensionViewController.xib */; };
+		84D55DB425F2099D00196586 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 84D55DB325F2099D00196586 /* script.js */; };
+		84D55DB625F2099D00196586 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84D55DB525F2099D00196586 /* ToolbarItemIcon.pdf */; };
+		84D55DBA25F2099D00196586 /* Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 84D55DA625F2099D00196586 /* Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		84D55DC025F20E5600196586 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D55DBF25F20E5600196586 /* Constants.swift */; };
+		84D55DC125F20E5600196586 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D55DBF25F20E5600196586 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84D55DB825F2099D00196586 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D55D8725F2094000196586 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D55DA525F2099D00196586;
+			remoteInfo = Extension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84D55DBE25F2099D00196586 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				84D55DBA25F2099D00196586 /* Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		84D55D8F25F2094000196586 /* Word Replacer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Word Replacer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D55D9225F2094000196586 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84D55D9425F2094000196586 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84D55D9625F2094500196586 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84D55D9925F2094500196586 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84D55D9B25F2094500196586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D55D9C25F2094500196586 /* Word_Replacer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Word_Replacer.entitlements; sourceTree = "<group>"; };
+		84D55DA625F2099D00196586 /* Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Extension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D55DA825F2099D00196586 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		84D55DAB25F2099D00196586 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		84D55DAD25F2099D00196586 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		84D55DB025F2099D00196586 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		84D55DB225F2099D00196586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D55DB325F2099D00196586 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		84D55DB525F2099D00196586 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		84D55DB725F2099D00196586 /* Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Extension.entitlements; sourceTree = "<group>"; };
+		84D55DBF25F20E5600196586 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84D55D8C25F2094000196586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D55DA325F2099D00196586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D55DA925F2099D00196586 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84D55D8625F2094000196586 = {
+			isa = PBXGroup;
+			children = (
+				84D55D9125F2094000196586 /* Word Replacer */,
+				84D55DAA25F2099D00196586 /* Extension */,
+				84D55DA725F2099D00196586 /* Frameworks */,
+				84D55D9025F2094000196586 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84D55D9025F2094000196586 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84D55D8F25F2094000196586 /* Word Replacer.app */,
+				84D55DA625F2099D00196586 /* Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84D55D9125F2094000196586 /* Word Replacer */ = {
+			isa = PBXGroup;
+			children = (
+				84D55D9225F2094000196586 /* AppDelegate.swift */,
+				84D55D9425F2094000196586 /* ViewController.swift */,
+				84D55DBF25F20E5600196586 /* Constants.swift */,
+				84D55D9625F2094500196586 /* Assets.xcassets */,
+				84D55D9825F2094500196586 /* Main.storyboard */,
+				84D55D9B25F2094500196586 /* Info.plist */,
+				84D55D9C25F2094500196586 /* Word_Replacer.entitlements */,
+			);
+			path = "Word Replacer";
+			sourceTree = "<group>";
+		};
+		84D55DA725F2099D00196586 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84D55DA825F2099D00196586 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84D55DAA25F2099D00196586 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				84D55DAB25F2099D00196586 /* SafariExtensionHandler.swift */,
+				84D55DAD25F2099D00196586 /* SafariExtensionViewController.swift */,
+				84D55DAF25F2099D00196586 /* SafariExtensionViewController.xib */,
+				84D55DB225F2099D00196586 /* Info.plist */,
+				84D55DB325F2099D00196586 /* script.js */,
+				84D55DB525F2099D00196586 /* ToolbarItemIcon.pdf */,
+				84D55DB725F2099D00196586 /* Extension.entitlements */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84D55D8E25F2094000196586 /* Word Replacer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D55D9F25F2094500196586 /* Build configuration list for PBXNativeTarget "Word Replacer" */;
+			buildPhases = (
+				84D55D8B25F2094000196586 /* Sources */,
+				84D55D8C25F2094000196586 /* Frameworks */,
+				84D55D8D25F2094000196586 /* Resources */,
+				84D55DBE25F2099D00196586 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D55DB925F2099D00196586 /* PBXTargetDependency */,
+			);
+			name = "Word Replacer";
+			productName = "Word Replacer";
+			productReference = 84D55D8F25F2094000196586 /* Word Replacer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84D55DA525F2099D00196586 /* Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D55DBB25F2099D00196586 /* Build configuration list for PBXNativeTarget "Extension" */;
+			buildPhases = (
+				84D55DA225F2099D00196586 /* Sources */,
+				84D55DA325F2099D00196586 /* Frameworks */,
+				84D55DA425F2099D00196586 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Extension;
+			productName = Extension;
+			productReference = 84D55DA625F2099D00196586 /* Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84D55D8725F2094000196586 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Charles;
+				TargetAttributes = {
+					84D55D8E25F2094000196586 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					84D55DA525F2099D00196586 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 84D55D8A25F2094000196586 /* Build configuration list for PBXProject "Word Replacer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84D55D8625F2094000196586;
+			productRefGroup = 84D55D9025F2094000196586 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84D55D8E25F2094000196586 /* Word Replacer */,
+				84D55DA525F2099D00196586 /* Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84D55D8D25F2094000196586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D55D9725F2094500196586 /* Assets.xcassets in Resources */,
+				84D55D9A25F2094500196586 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D55DA425F2099D00196586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D55DB625F2099D00196586 /* ToolbarItemIcon.pdf in Resources */,
+				84D55DB125F2099D00196586 /* SafariExtensionViewController.xib in Resources */,
+				84D55DB425F2099D00196586 /* script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84D55D8B25F2094000196586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D55D9525F2094000196586 /* ViewController.swift in Sources */,
+				84D55D9325F2094000196586 /* AppDelegate.swift in Sources */,
+				84D55DC025F20E5600196586 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D55DA225F2099D00196586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D55DAE25F2099D00196586 /* SafariExtensionViewController.swift in Sources */,
+				84D55DAC25F2099D00196586 /* SafariExtensionHandler.swift in Sources */,
+				84D55DC125F20E5600196586 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84D55DB925F2099D00196586 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D55DA525F2099D00196586 /* Extension */;
+			targetProxy = 84D55DB825F2099D00196586 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84D55D9825F2094500196586 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D55D9925F2094500196586 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84D55DAF25F2099D00196586 /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D55DB025F2099D00196586 /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84D55D9D25F2094500196586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84D55D9E25F2094500196586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		84D55DA025F2094500196586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Word Replacer/Word_Replacer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Word Replacer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charles.word-replacer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		84D55DA125F2094500196586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Word Replacer/Word_Replacer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Word Replacer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charles.word-replacer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		84D55DBC25F2099D00196586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Extension/Extension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Extension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charles.word-replacer.extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		84D55DBD25F2099D00196586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Extension/Extension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Extension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charles.word-replacer.extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84D55D8A25F2094000196586 /* Build configuration list for PBXProject "Word Replacer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D55D9D25F2094500196586 /* Debug */,
+				84D55D9E25F2094500196586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D55D9F25F2094500196586 /* Build configuration list for PBXNativeTarget "Word Replacer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D55DA025F2094500196586 /* Debug */,
+				84D55DA125F2094500196586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D55DBB25F2099D00196586 /* Build configuration list for PBXNativeTarget "Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D55DBC25F2099D00196586 /* Debug */,
+				84D55DBD25F2099D00196586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84D55D8725F2094000196586 /* Project object */;
+}
