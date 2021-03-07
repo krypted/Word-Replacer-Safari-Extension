@@ -20,11 +20,13 @@ After you install Xcode in your mac, follow the steps below:
 
 6. Open Safari Extensions and check the box for "Word Replacer".
 
+<img src="https://github.com/krypted/Word-Replacer-Safari-Extension/blob/main/word-replacer-master/Screen%20Shot%202021-03-07%20at%204.47.31%20PM.png?raw=true" width=500 height=400)>
+
 7. To see Safari App Extension, follow the instructions that you see in the screen of the app. 
 
 8. Once open, use the - button in the Safari bar to enter the word to find and word to target and then use the slider to enable the word replace function.
 
-<img src="https://github.com/krypted/Word-Replacer-Safari-Extension/blob/main/word-replacer-master/Screen%20Shot%202021-03-07%20at%204.47.31%20PM.png?raw=true" width=400 height=400)>
+<img src="https://github.com/krypted/Word-Replacer-Safari-Extension/blob/main/word-replacer-master/Screen%20Shot%202021-03-07%20at%204.55.23%20PM.png?raw=true" width=400 height=100)>
 
 9. Enjoy. 
 
